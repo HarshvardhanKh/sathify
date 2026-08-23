@@ -1,0 +1,50 @@
+@import './themes.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Focus Ring Rule (WCAG 2.2 AA SC 2.4.13 Focus Appearance) */
+*:focus-visible {
+  outline: 3px solid var(--color-focus-ring) !important;
+  outline-offset: 2px !important;
+  box-shadow: none !important;
+}
+
+/* Accessible Screen Reader Only Utility */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Reduced Motion Override (Mandatory) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Base Body Styles */
+body {
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Focusable Main Container */
+main:focus {
+  outline: none !important;
+}

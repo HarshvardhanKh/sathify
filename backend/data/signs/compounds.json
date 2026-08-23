@@ -1,0 +1,10 @@
+{
+  "ARTIFICIAL_INTELLIGENCE": {
+    "sign_id": "artificial_intelligence",
+    "fallback": ["ARTIFICIAL", "INTELLIGENCE"]
+  },
+  "MACHINE_LEARNING": {
+    "sign_id": "machine_learning",
+    "fallback": ["MACHINE", "LEARN"]
+  }
+}

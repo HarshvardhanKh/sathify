@@ -1,0 +1,27 @@
+{
+  "_comment": "Procedural single-target-pose animation library. Each entry is a hand TARGET position (meters, relative to torso center, y-up, +z toward camera) the avatar tweens to from idle and holds briefly. This is NOT motion-captured or linguistically verified ISL handshape/movement data — it's honestly-labeled procedural placeholder motion: distinct, visible, code-authored poses per sign so hands are clearly seen moving to different positions. Hero signs (the ones exercised by the demo/tests) are hand-placed for visual variety; everything else in vocabulary.json is auto-generated at load time by AnimationLibrary so no sign_id is ever left without an animation (see services/animation/library.py).",
+  "idle": {"right_hand": [0.35, -0.35, 0.15], "left_hand": [-0.35, -0.35, 0.15]},
+
+  "hello":        {"right_hand": [0.25, 0.55, 0.35], "left_hand": null},
+  "everyone":     {"right_hand": [0.10, 0.30, 0.40], "left_hand": [-0.10, 0.30, 0.40]},
+  "today":        {"right_hand": [0.20, 0.10, 0.30], "left_hand": [-0.20, 0.10, 0.30]},
+  "tomorrow":     {"right_hand": [0.35, 0.20, 0.25], "left_hand": null},
+  "yesterday":    {"right_hand": [-0.35, 0.20, 0.25], "left_hand": null},
+  "i":            {"right_hand": [0.05, 0.10, 0.45], "left_hand": null},
+  "you":          {"right_hand": [0.05, 0.10, 0.50], "left_hand": null},
+  "we":           {"right_hand": [0.20, 0.05, 0.35], "left_hand": [-0.20, 0.05, 0.35]},
+  "name":         {"right_hand": [0.10, 0.35, 0.20], "left_hand": null},
+  "what":         {"right_hand": [0.15, 0.05, 0.20], "left_hand": null},
+  "question_marker": {"right_hand": [0.30, 0.45, 0.20], "left_hand": null},
+  "where":        {"right_hand": [0.40, -0.05, 0.20], "left_hand": null},
+  "when":         {"right_hand": [0.15, 0.40, 0.15], "left_hand": null},
+  "why":          {"right_hand": [0.20, 0.50, 0.10], "left_hand": null},
+  "how":          {"right_hand": [0.15, -0.10, 0.30], "left_hand": [-0.15, -0.10, 0.30]},
+  "learn":        {"right_hand": [0.05, 0.45, 0.35], "left_hand": null},
+  "go":           {"right_hand": [0.45, 0.15, 0.10], "left_hand": null},
+  "college":      {"right_hand": [0.25, 0.35, 0.05], "left_hand": [-0.25, 0.35, 0.05]},
+  "artificial":   {"right_hand": [0.10, 0.55, 0.30], "left_hand": null},
+  "intelligence": {"right_hand": [0.05, 0.60, 0.25], "left_hand": [-0.05, 0.60, 0.25]},
+  "not":          {"right_hand": [0.30, 0.00, 0.15], "left_hand": null},
+  "do":           {"right_hand": [0.15, -0.05, 0.35], "left_hand": null}
+}

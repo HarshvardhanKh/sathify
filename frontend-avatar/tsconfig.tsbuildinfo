@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/avatar/animationqueue.ts","./src/avatar/avatar.tsx","./src/avatar/useanimationlibrary.ts","./src/components/controlbar.tsx","./src/components/debugpanel.tsx","./src/ws/usewebsocket.ts"],"version":"5.9.3"}
