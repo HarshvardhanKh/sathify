@@ -385,8 +385,10 @@ Built with love for the **Craft n Code Hackathon** by Team SaathiFy.
 
 | Name | GitHub | LinkedIn |
 |------|--------|----------|
-| Piyush Agarwal | [Piyush5525](https://github.com/Piyush5525) | [piyush-agarwal-97b731316](https://www.linkedin.com/in/piyush-agarwal-97b731316/) |
 | Harshvardhan Khaitan | [HarshvardhanKh](https://github.com/HarshvardhanKh) | [harshvardhankh](https://www.linkedin.com/in/harshvardhankh/) |
+| Piyush Agarwal | [Piyush5525](https://github.com/Piyush5525) | [piyush-agarwal-97b731316](https://www.linkedin.com/in/piyush-agarwal-97b731316/) |
+| Disha Chopra | [DISHA7-debug](https://github.com/DISHA7-debug) | [disha-chopra-116244339](https://www.linkedin.com/in/disha-chopra-116244339/) |
+
 
 ---
 
