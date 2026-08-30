@@ -383,6 +383,11 @@ We welcome contributions! Please follow these steps:
 
 Built with love for the **Craft n Code Hackathon** by Team SaathiFy.
 
+| Name | GitHub | LinkedIn |
+|------|--------|----------|
+| Piyush Agarwal | [Piyush5525](https://github.com/Piyush5525) | [piyush-agarwal-97b731316](https://www.linkedin.com/in/piyush-agarwal-97b731316/) |
+| Harshvardhan Khaitan | [HarshvardhanKh](https://github.com/HarshvardhanKh) | [harshvardhankh](https://www.linkedin.com/in/harshvardhankh/) |
+
 ---
 
 ## License
